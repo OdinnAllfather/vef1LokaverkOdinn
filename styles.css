@@ -61,14 +61,13 @@ a:hover, a:active {
 
 /*Columns*/
 
-.col2-2,
 .col-2,
 .col-3,
 .col-3-myndir {
     display: grid;
     grid-template-columns: 1fr;
 }
-.col2-2,
+
 .col-2 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -192,10 +191,6 @@ audio {
         grid-template-columns: 2fr 1fr;
         gap: 2rem;
     }
-    .col2-2 {
-        grid-template-columns: 1fr 2fr;
-        gap: 2rem;
-    }
     .col-3 {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
@@ -228,8 +223,17 @@ audio {
         justify-content: space-around;
         border-bottom: 2px solid rgba(173, 216, 230, 0.7);
     }
-    .saga {
+    .saga1 {
         display: block;
+        width: 25rem;
+        float: right;
+        margin: .5rem 1rem;
+    }
+    .saga2 {
+        display: block;
+        width: 25rem;
+        float: left;
+        margin: .5rem 1rem;
     }
 }
 @media screen and (min-width:60rem) {
