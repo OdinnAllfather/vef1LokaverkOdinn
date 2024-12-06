@@ -163,6 +163,14 @@ blockquote {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 }
+.sagaList a:link {
+    border: 1px;
+    border-radius: 5rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(102, 0, 128);
+    box-shadow: 0 -2px 8px rgb(77, 0, 96);
+}
 .comingSoon {
     text-align: center;
 }
