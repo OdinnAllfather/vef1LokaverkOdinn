@@ -190,6 +190,13 @@ audio {
 .center {
     text-align: center;
 }
+.elipsis {
+    white-space: nowrap; 
+    width: 9rem; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+  }
 
 /*Sveigjanlegt*/
 
